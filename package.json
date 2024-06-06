@@ -1,0 +1,23 @@
+{
+  "name": "learn-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "dev:demo1": "pnpm --filter demo1 dev",
+    "build:demo1": "pnpm --filter demo1 build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.7.4",
+    "missyooo_components": "workspace:^",
+    "missyooo_utils": "workspace:^",
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}
